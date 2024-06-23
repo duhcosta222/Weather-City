@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather City</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body class="page">
+    <main class="weather-app container">
+        <header class="weather-app__header">
+            <h1 class="weather-app__title">Weather City</h1>
+        </header>
+        <form class="weather-app__form" id="weatherForm">
+            <input class="weather-app__input" type="text" id="cityInput" placeholder="Enter city name...">
+            <button class="weather-app__button" type="button" id="searchButton">Search</button>
+        </form>
+        <section class="weather-app__info u-margin-top-20" id="weatherInfo">
+        </section>
+        <section class="weather-app__error u-margin-top-20 u-color-red" id="errorInfo">
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

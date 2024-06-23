@@ -1,0 +1,44 @@
+@import 'settings/colors.css';
+@import 'settings/fonts.css';
+@import 'tools/mixins.css';
+@import 'generic/reset.css';
+@import 'elements/base.css';
+@import 'objects/containers.css';
+@import 'components/button.css';
+@import 'components/input.css';
+@import 'utilities/utilities.css';
+
+body {
+  background-image: url('../img/DALL·E\ 2024-06-12\ 14.57.32\ -\ A\ background\ image\ for\ a\ weather\ forecast\ app.\ The\ scene\ should\ be\ a\ serene\ landscape\ transitioning\ smoothly\ through\ different\ weather\ conditions.\ On\ .webp');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  text-align: center;
+}
+
+.weather-app__header {
+  margin-bottom: 20px;
+}
+
+.weather-app__form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.weather-app__input,
+.weather-app__button {
+  padding: 10px;
+  margin: 10px 0;
+  width: 80%;
+}
+
+.weather-app__info,
+.weather-app__error {
+  margin-top: 20px;
+}
